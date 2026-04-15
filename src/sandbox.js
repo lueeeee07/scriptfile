@@ -142,19 +142,25 @@ if (true){
    let age = 30;
     console.log('inside code block: ', age);
 }
-console.log('outside code block: ', age);*/
+console.log('outside code block: ', age);
 //object literals
 let user = {
 name: "John",
 age: 18,
 email: "luogaluee@gmail.com",
 location: "beijing",
-blogs: ["why mac & cheese rules", "10 things to make with marmite"],
+blogs: [{"title": "why mac & cheese rules", "likes": 30}, {"title": "10 things to make with marmite", "likes": 25}],
 login: function(){
     console.log("the user logged in");
 },
 logout: function(){
     console.log("the user logged out");
+},
+logBlogs: function(){
+    console.log("this user has written thefollowing blogs:");
+    this.blogs.forEach(blog => {
+        console.log(blog.title, blog.likes);
+    });
 }
 };
 console.log(user);
@@ -166,4 +172,24 @@ console.log(user["email"]);
 user.login();
 user.logout();
 const name = "shaun";
-name.toUpperCase();
+
+user.logBlogs();
+//Math object
+console.log(Math);
+console.log(Math.PI);
+console.log(Math.E);
+const area = 7.7;
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
+
+const random = Math.random();
+
+console.log(random);
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+scoreOne = 100;
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);*/
