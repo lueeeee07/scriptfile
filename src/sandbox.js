@@ -193,3 +193,5 @@ let scoreTwo = scoreOne;
 console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 scoreOne = 100;
 console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);*/
+const para = document.querySelector
+console.log(para)

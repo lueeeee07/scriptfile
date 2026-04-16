@@ -1,0 +1,30 @@
+//const para= document.querySelector("body > h1");
+
+//console.log(para);
+
+//const paras = document.querySelectorAll("p");
+//const errors = document.querySelectorAll(".error");
+
+//console.log(errors);
+//const title = document.getElementById("page-title");
+//console.log(title);
+
+//const errors = document.getElementsByClassName("error");
+//console.log(errors);
+//console.log(errors[0]);
+
+//const paras = document.getElementsByTagName("p");
+//console.log(paras);
+//console.log(paras[1]);
+
+//const para= document.querySelector("p");
+//console.log(para.innerText);
+
+//const paras = document.querySelectorAll("p");
+//paras.forEach(para => {
+//    console.log(para.innerText);
+   // para.innerText += " new text";
+//});
+//const content = document.querySelector(".content");
+//content.innerHTML += "<h2>This is a new H2</h2>";
+
