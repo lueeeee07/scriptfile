@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@keyframes dance{
+    0% { transform: rotate(0deg)scale(1); }
+    25% { transform: rotate(10deg)scale(1.1); }
+    50% { transform: rotate(0deg)scale(1.1); }
+    75% { transform: rotate(-10deg)scale(0.65); }
+}
+.dance{
+    animation: dance 0.5s ease;
+}

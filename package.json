@@ -1,0 +1,29 @@
+{
+  "name": "scriptfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "npx postcss src/style.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lueeeee07/scriptfile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lueeeee07/scriptfile/issues"
+  },
+  "homepage": "https://github.com/lueeeee07/scriptfile#readme"
+}
